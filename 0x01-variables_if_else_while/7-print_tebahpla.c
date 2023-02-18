@@ -13,7 +13,7 @@ int main(void)
 	char alp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	sizeofarray = sizeof(alp) / sizeof(alp[0]);
-	i = sizeofarray - 1;
+	i = sizeofarray - 2;
 	while (alp[i])
 	{
 	putchar(tolower(alp[i]));
