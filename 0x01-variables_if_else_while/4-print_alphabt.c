@@ -14,7 +14,7 @@ int main(void)
 	i = 0;
 	while (alp[i])
 	{
-	if (alp[i] == 'Q' || 'E')
+	if (alp[i] == 'Q' || alp[i] == 'E')
 	{
 	;
 	}
