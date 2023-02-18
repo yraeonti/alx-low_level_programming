@@ -23,6 +23,6 @@ int main(void)
 	putchar(tolower(alp[i]));
 	}
 	}
-	putchar('/n');
+	putchar('\n');
 	return (0);
 }
