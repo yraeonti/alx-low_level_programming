@@ -10,6 +10,7 @@ int main(void)
 	int i;
 
 	char alp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ\n";
+
 	i = 0;
 	while (alp[i])
 	{
