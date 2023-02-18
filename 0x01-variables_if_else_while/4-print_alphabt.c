@@ -22,6 +22,7 @@ int main(void)
 	{
 	putchar(tolower(alp[i]));
 	}
+	i++;
 	}
 	putchar('\n');
 	return (0);
