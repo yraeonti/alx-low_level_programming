@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	char ch[];
+	
 	int i;
-
-	ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	
 	i = 0;
 	while (ch[i])
 	{
