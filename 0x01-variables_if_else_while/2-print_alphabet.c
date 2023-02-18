@@ -9,7 +9,7 @@ int main(void)
 {
 	char ch;
 
-	ch = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	putchar(tolower(ch));
 	return (0);
 }
