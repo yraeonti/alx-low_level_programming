@@ -17,7 +17,7 @@ int main(void)
 	putchar(tolower(alp[i]));
 	i++;
 	}
-	i = 0
+	i = 0;
 	while (alp[i])
 	{
 	putchar(alp[i]);
