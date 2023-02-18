@@ -7,9 +7,14 @@
  */
 int main(void)
 {
-	char ch[26];
+	char ch[];
+	int i;
 
 	ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	putchar(tolower(ch));
+	i = 0;
+	while (ch[i])
+	{
+	putchar(tolower(ch[i]));
+	}
 	return (0);
 }
