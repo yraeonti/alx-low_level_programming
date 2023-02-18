@@ -12,9 +12,10 @@ int main(void)
 	char alp[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	
 	i = 0;
-	while (ch[i])
+	while (alp[i])
 	{
-	putchar(tolower(ch[i]));
+	putchar(tolower(alp[i]));
+	i++;
 	}
 	return (0);
 }
