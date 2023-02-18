@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char ch;
+	char ch[];
 
 	ch = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	putchar(tolower(ch));
