@@ -15,6 +15,11 @@ int main(void)
 	while (alp[i])
 	{
 	putchar(tolower(alp[i]));
+	i++;
+	}
+	i = 0
+	while (alp[i])
+	{
 	putchar(alp[i]);
 	i++;
 	}
