@@ -26,31 +26,28 @@ void jack_bauer(void)
 	_putchar(':');
 	_putchar('0');
 	_putchar('0' + m);
-	_putchar('\n');
 	}
 	else if (h < 10  && m >= 10)
 	{
-	_putchar(0);
-	_putchar(h);
+	_putchar('0');
+	_putchar('0' + h);
 	_putchar(':');
-	_putchar(m);
-	_putchar('\n');
+	_putchar('0' + m);
 	}
 	else if (h >= 10 && m < 10)
 	{
-	_putchar(h);
+	_putchar('0' + h);
 	_putchar(':');
-	_putchar(0);
-	_putchar(m);
-	_putchar('\n');
+	_putchar('0');
+	_putchar('0' + m);
 	}
 	else if (h >= 10 && m >= 10)
 	{
-	_putchar(h);
+	_putchar('0' + h);
 	_putchar(':');
-	_putchar(m);
-	_putchar('\n');
+	_putchar('0' + m);
 	}
+	_putchar('\n');
 	}
 	}
 }
