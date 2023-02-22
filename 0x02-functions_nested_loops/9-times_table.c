@@ -25,15 +25,25 @@ void times_table(void)
 	if (mul < 10)
 	{
 	_putchar('0' + mul);
+	if (m != 9)
+	{
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
+	}
 	}
 	else if (mul >= 10)
 	{
 	_putchar((mul / 10) + '0');
 	_putchar((mul % 10) + '0');
-	}
-	_putchar(' ');
+	if (m != 9)
+	{
 	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
+	}
 	}
 	_putchar('\n');
+	}
 	}
 }
