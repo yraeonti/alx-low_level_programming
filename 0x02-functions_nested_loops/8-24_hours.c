@@ -32,7 +32,7 @@ void jack_bauer(void)
 	_putchar('0');
 	_putchar('0' + h);
 	_putchar(':');
-	printf("%d", m);
+	printf("%d",m);
 	}
 	else if (h >= 10 && m < 10)
 	{
