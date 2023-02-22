@@ -19,34 +19,11 @@ void jack_bauer(void)
 	{
 	for (m = 0; m <= 59; m++)
 	{
-	if (h < 10 && m < 10)
-	{
-	_putchar('0');
-	_putchar('0' + h);
+	_putchar((h/10) + '0');
+	_putchar((h%10) + '0');
 	_putchar(':');
-	_putchar('0');
-	_putchar('0' + m);
-	}
-	else if (h < 10  && m >= 10)
-	{
-	_putchar('0');
-	_putchar('0' + h);
-	_putchar(':');
-	printf("%d",m);
-	}
-	else if (h >= 10 && m < 10)
-	{
-	_putchar('0' + h);
-	_putchar(':');
-	_putchar('0');
-	_putchar('0' + m);
-	}
-	else if (h >= 10 && m >= 10)
-	{
-	_putchar('0' + h);
-	_putchar(':');
-	_putchar('0' + m);
-	}
+	_putchar((m/10) + '0');
+	_putchar((m%10) + '0');
 	_putchar('\n');
 	}
 	}
