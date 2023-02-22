@@ -5,12 +5,12 @@
 #include "main.h"
 
 /**
- * jack_bauer - Entry point
+ * times_table - Entry point
  *
- * Return: int
+ * Return: void
  */
 
-void jack_bauer(void)
+void times_table(void)
 {
 	int h;
 	int m;
