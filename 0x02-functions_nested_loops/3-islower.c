@@ -4,7 +4,7 @@
 
 /**
  * _islower - Entry point
- * * @c: int
+ * @c: int
  * Return:int
  */
 
