@@ -21,11 +21,11 @@ void jack_bauer(void)
 	{
 	if (h < 10 && m < 10)
 	{
-	_putchar(0);
-	_putchar(h);
+	_putchar('0');
+	_putchar('0' + h);
 	_putchar(':');
-	_putchar(0);
-	_putchar(m);
+	_putchar('0');
+	_putchar('0' + m);
 	}
 	else if (h < 10  && m >= 10)
 	{
