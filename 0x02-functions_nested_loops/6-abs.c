@@ -5,7 +5,7 @@
 
 /**
  * _abs - Entry point
- * paramenter: int n
+ * * @n: int
  * Return: int
  */
 

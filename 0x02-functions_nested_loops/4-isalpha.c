@@ -4,7 +4,7 @@
 
 /**
  * _isalpha - Entry point
- * paramenter: int c
+ * * @c: int
  * Return: int
  */
 
