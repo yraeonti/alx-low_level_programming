@@ -21,7 +21,6 @@ void times_table(void)
 	for (m = 0; m <= 9; m++)
 	{
 	mul = h * m;
-	
 	if (mul < 10)
 	{
 	_putchar('0' + mul);
@@ -43,7 +42,7 @@ void times_table(void)
 	_putchar(' ');
 	}
 	}
-	_putchar('\n');
 	}
+	_putchar('\n');
 	}
 }
