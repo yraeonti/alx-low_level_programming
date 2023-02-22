@@ -26,6 +26,7 @@ void jack_bauer(void)
 	_putchar(':');
 	_putchar('0');
 	_putchar('0' + m);
+	_putchar('\n');
 	}
 	else if (h < 10  && m >= 10)
 	{
@@ -33,6 +34,7 @@ void jack_bauer(void)
 	_putchar(h);
 	_putchar(':');
 	_putchar(m);
+	_putchar('\n');
 	}
 	else if (h >= 10 && m < 10)
 	{
@@ -40,12 +42,14 @@ void jack_bauer(void)
 	_putchar(':');
 	_putchar(0);
 	_putchar(m);
+	_putchar('\n');
 	}
 	else if (h >= 10 && m >= 10)
 	{
 	_putchar(h);
 	_putchar(':');
 	_putchar(m);
+	_putchar('\n');
 	}
 	}
 	}
