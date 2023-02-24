@@ -3,7 +3,6 @@
 
 /**
  * print_numbers - entry point
- * 
  * Return: void
  */
 void print_numbers(void)
@@ -12,6 +11,6 @@ void print_numbers(void)
 
 	for (i = 0; i < 10; i++)
 	{
-	putchar(i);
+	_putchar(i);
 	}
 }
