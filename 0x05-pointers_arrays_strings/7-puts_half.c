@@ -9,17 +9,17 @@
  */
 void puts_half(char *str)
 {
-	int n;
+	size_t n;
 	size_t i;
 	size_t q = strlen(str);
-	
-	if (q % 2 != 0)
+
+	if (q % 2 == 0)
 	{
-	n = (q - 1) / 2;
+	n = (q / 2);
 	}
 	else
 	{
-	n = q / 2;
+	n = (q - 1) / 2;
 	}
 	for (i = n; i < q; i++)
 	{
