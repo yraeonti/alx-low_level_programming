@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- * swap_int - entry point
- * @s: pointer to char 
+ * _strlen - entry point
+ * @s: pointer to char
  * Return: void
  */
 int _strlen(char *s)
 {
-	return strlen(s);
+	return (strlen(s));
 }
