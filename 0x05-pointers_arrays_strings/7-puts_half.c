@@ -19,9 +19,9 @@ void puts_half(char *str)
 	}
 	else
 	{
-	n = (q - 1) / 2;
+	n = (q + 1) / 2;
 	}
-	for (i = n + 1; i < q; i++)
+	for (i = n; i < q; i++)
 	{
 	printf("%c", str[i]);
 	}
