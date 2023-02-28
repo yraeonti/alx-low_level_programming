@@ -10,6 +10,7 @@
 void puts_half(char *str)
 {
 	int n;
+	size_t i;
 	size_t q = strlen(str);
 	
 	if (q % 2 != 0)
@@ -20,9 +21,9 @@ void puts_half(char *str)
 	{
 	n = q / 2;
 	}
-	for (int j = n; j < q; j++)
+	for (i = n; i < q; i++)
 	{
-	printf("%c", str[j]);
+	printf("%c", str[i]);
 	}
 	putchar('\n');
 }
