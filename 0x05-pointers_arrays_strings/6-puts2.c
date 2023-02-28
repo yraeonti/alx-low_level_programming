@@ -9,7 +9,7 @@
  */
 void puts2(char *str)
 {
-	int i;
+	size_t i;
 
 	for (i = 0; i < strlen(str); i++)
 	{
@@ -17,7 +17,7 @@ void puts2(char *str)
 		{
 			continue;
 		}
-		putchar(s[i]);
+		putchar(str[i]);
 	}
 	putchar('\n');
 }
