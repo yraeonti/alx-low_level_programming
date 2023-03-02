@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strcat - entry point
+ * _strncat - entry point
  * @dest: pointer to char
  * @src: pointer to char
  * @n: pointer int
