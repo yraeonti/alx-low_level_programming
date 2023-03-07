@@ -8,19 +8,22 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i, j;
 	long int leftSum, rightSum;
+	int i, j;
 
-	leftSum = 0;
-	rightSum = 0;
+	leftSum = *a;
+	rightSum = *(a + (size - 1));
+	
+	for (i = 2, j = 0; i <= size; i++)
+	{
+	j += size + 1;
+	leftSum += *(a + j);
+	}
+	for (i = 2, j = size - 1; i <= size; i++)
+	{
+	j += size - 1;
+	rightSum += *(a + j);
+	}
 
-	for (i = 0, j = 0; i < size && j < size; i++, j++)
-	{
-	leftSum += a[i][j];
-	}
-	for (i = 0, j = (size - 1); i < size && j > 0; i++, j--)
-	{
-	rightSum += a[i][j];
-	}
-	printf("%li, %li", leftSum, rigtSum);
+	printf("%li, %li \n", leftSum, rightSum);
 }
