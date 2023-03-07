@@ -1,4 +1,4 @@
-#include<string.h>
+#include<stdio.h>
 #include "main.h"
 /**
  * print_diagsums - entry point
