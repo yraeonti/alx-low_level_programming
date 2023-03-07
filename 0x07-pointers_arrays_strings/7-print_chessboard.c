@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_chessboard - entry point
- * @b: 2-dimentional array
+ * @b: two dimentional array
  * Return: void
  */
 void print_chessboard(char b(*a)[8])
