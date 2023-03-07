@@ -13,7 +13,6 @@ void print_diagsums(int *a, int size)
 
 	leftSum = *a;
 	rightSum = *(a + (size - 1));
-	
 	for (i = 2, j = 0; i <= size; i++)
 	{
 	j += size + 1;
