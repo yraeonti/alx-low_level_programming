@@ -25,5 +25,5 @@ void print_diagsums(int *a, int size)
 	rightSum += *(a + j);
 	}
 
-	printf("%li, %li \n", leftSum, rightSum);
+	printf("%li, %li\n", leftSum, rightSum);
 }
