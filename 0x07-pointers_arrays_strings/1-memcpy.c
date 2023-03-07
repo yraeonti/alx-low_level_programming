@@ -2,12 +2,12 @@
 #include "main.h"
 /**
  * _memcpy - entry point
- * @s: pointer to char
- * @b: char
+ * @dest: pointer to char
+ * @src: pointer to char
  * @n: unsigned int
  * Return: pointer to char
  */
-char *_memcpy(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (memcpy(s, b, n));
+	return (memcpy(dest, src, n));
 }
