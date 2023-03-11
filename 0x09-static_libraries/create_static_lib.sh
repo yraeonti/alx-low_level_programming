@@ -2,3 +2,4 @@
 gcc -c -Wall -Werror -Wextra *.c
 ar -rc liball.a *.a
 ranlib liball.a
+echo
