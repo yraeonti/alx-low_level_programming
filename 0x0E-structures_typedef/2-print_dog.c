@@ -1,6 +1,6 @@
-#include <stdlib.h>
+#include<stdlib.h>
 #include "dog.h"
-
+#include<stdlib.h>
 /**
   * print_dog - Initializes a dog structure
   * @d: struct of dog
