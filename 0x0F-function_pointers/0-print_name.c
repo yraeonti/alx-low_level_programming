@@ -4,7 +4,6 @@
  * print_name - entry point
  * @name: pointer to char
  * @f: pointer to function
- * Return: nothing
  */
 
 void print_name(char *name, void (*f)(char *))
