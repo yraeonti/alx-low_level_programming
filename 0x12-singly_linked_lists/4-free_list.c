@@ -5,6 +5,7 @@
 
 /**
  * free_list - entry point
+ * @head: pointer to list_t
  * Return: void
  */
 
