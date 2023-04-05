@@ -1,5 +1,5 @@
 #ifndef _HEADER_
-#define _HEADER
+#define _HEADER_
 
 /**
  * struct listint_s - singly linked list
@@ -7,7 +7,6 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * 
  */
 typedef struct listint_s
 {
