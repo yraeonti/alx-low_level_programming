@@ -11,15 +11,14 @@ size_t print_listint(const listint_t *h)
 {
 	size_t size;
 	listint_t *temp = (listint_t *)h;
-
-	size = 0;
-	while (temp->next)
+	if (h != NULL)
 	{
-		printf("%d\n", temp->n);
-		size++;
-		temp = temp->next;
+		while (h)
+		{
+			printf("%d\n", h->n);
+			h = h->next;
+			element++;
+		}
 	}
-	size++;
-	printf("%d\n", temp->n);
 	return (size);
 }
